@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://MRyutaro.github.io/sample-github-pages",
+  "homepage": "https://mryutaro.github.io/sample-github-pages/",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
