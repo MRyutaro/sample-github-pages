@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// GitHub Pages 用に `base` を設定
 export default defineConfig({
   plugins: [react()],
-})
+  base: '/sample-github-pages/' // リポジトリ名を指定
+});
